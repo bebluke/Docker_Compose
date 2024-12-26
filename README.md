@@ -11,16 +11,16 @@ This is a homework from BDSE DOCKER Class.
 ├── python-flask
 |   ├── Dockerfile
 |   ├── app.py
-|   ├── requirements.txt
+|   └── requirements.txt
 |
 ├── sql
 |   ├── Dockerfile
 |   ├── Titanic-Dataset.csv
-|   ├── import.sql
+|   └── import.sql
 |
 ├── web
 |   ├── Dockerfile
-|   ├── index.html
+|   └── index.html
 |
 ├── README.md
 └── docker-compose.yaml
