@@ -14,10 +14,10 @@ This is a homework from BDSE DOCKER Class.
 |   └── requirements.txt
 |
 ├── mysql
-|   ├── Dockerfile
-|   └── import.sql
+|   └── Dockerfile
 |
 ├── data
+|   ├── import.sql
 |   └── Titanic-Dataset.csv
 |
 ├── web
