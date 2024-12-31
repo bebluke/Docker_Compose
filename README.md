@@ -18,7 +18,7 @@ This is a homework from BDSE DOCKER Class.
 |
 ├── data
 |   ├── import.sql
-|   └── Titanic-Dataset.csv
+|   └── titanic_full_data.csv
 |
 ├── web
 |   ├── Dockerfile
