@@ -25,6 +25,6 @@ This is a homework from BDSE DOCKER Class.
 |   └── index.html
 |
 ├── README.md
-└── docker_compose.yaml
+└── docker-compose.yaml
     
 ```
