@@ -8,15 +8,17 @@ This is a homework from BDSE DOCKER Class.
 ## Project Structure
 ```
 .
-├── python-flask
+├── python
 |   ├── Dockerfile
 |   ├── app.py
 |   └── requirements.txt
 |
-├── sql
+├── mysql
 |   ├── Dockerfile
-|   ├── Titanic-Dataset.csv
 |   └── import.sql
+|
+├── data
+|   └── Titanic-Dataset.csv
 |
 ├── web
 |   ├── Dockerfile
