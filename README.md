@@ -8,23 +8,27 @@ This is a homework from BDSE DOCKER Class.
 ## Project Structure
 ```
 .
+├── data
+|   ├── import.sql
+|   └── titanic_full_data.csv
+|
+├── mysql
+|   └── Dockerfile
+|
 ├── python
-|   ├── Dockerfile
 |   ├── app.py
+|   ├── Dockerfile
 |   └── requirements.txt
 |
 ├── mysql
 |   └── Dockerfile
 |
-├── data
-|   ├── import.sql
-|   └── titanic_full_data.csv
-|
 ├── web
-|   ├── Dockerfile
-|   └── index.html
+|   ├── Dockerfilenginx.conf
+|   ├── index.html
+|   └── nginx.conf
 |
-├── README.md
-└── docker-compose.yaml
+├── docker-compose.yaml
+└── README.md
     
 ```
