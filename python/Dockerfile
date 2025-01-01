@@ -3,11 +3,11 @@ FROM python:latest
 WORKDIR /app
 
 
-COPY requirements.txt requirements.txt
-RUN install -r requirements.txt
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
 
-COPY . .
+COPY app.py .
 
 EXPOSE 5000
 
-CMD["python", "app.py"]
+CMD ["python", "app.py"]
