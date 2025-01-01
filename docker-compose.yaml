@@ -1,9 +1,8 @@
-version '3.8'
+version: '3.8'
 
 services:
   database:
-    build:
-      context: ./mysql
+    image: mysql:8.0
     container_name: mysql_db
     environment:
       MYSQL_ROOT_PASSWORD: rootpassword
@@ -12,13 +11,14 @@ services:
       MYSQL_PASSWORD: password
     ports:
       - "3306:3306"
+    command: --secure-file-priv=/docker-entrypoint-initdb.d
     volumes:
       - ./data:/docker-entrypoint-initdb.d
 
   python:
     build:
       context: ./python
-    container_name: python
+    container_name: python_app
     depends_on:
       - database
     environment:
@@ -30,11 +30,10 @@ services:
     ports:
       - "5000:5000"
 
-
   web:
     build:
       context: ./web
-    container_name: web
+    container_name: nginx_web
     depends_on:
       - python
     ports:
