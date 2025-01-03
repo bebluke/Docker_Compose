@@ -1,7 +1,8 @@
 # Docker_Compose
 
 ## Describe 
-This is a homework from BDSE DOCKER Class. 
+This is a homework from BDSE DOCKER Class.  
+Import dataset into mysql, retreive dataset from mysql using flask, and show dataset in web page using nginx, by buliding a docker compose yaml file to run three containers including mysql, flask, nginx.
 
 ## Project Structure
 ```
@@ -30,16 +31,16 @@ This is a homework from BDSE DOCKER Class.
 └── README.md
     
 ```
-##Prerequisites
+## Prerequisites
 
 OS: Ubuntu Noble 24.04 (LTS)  
 Docker: To install docker on Ubuntu, please follow the step provided by docker offical website as follow https://docs.docker.com/engine/install/ubuntu/  
 
-##Deployment
+## Deployment
 
 Please download this project as a directory and upload into your Linux environment.  
 Please do not rename any item.  
-Please run the following command under this directory.  
+Please run the following command under this project directory.  
 
 ```
 docker compose up -d --build
