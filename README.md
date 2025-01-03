@@ -1,8 +1,8 @@
 # Docker_Compose
 
 ## Describe 
-This is a homework from BDSE DOCKER Class.  
-Import dataset into mysql, retreive dataset from mysql using flask, and show dataset in web page using nginx, by buliding a docker compose yaml file to run three containers including mysql, flask, nginx.
+This is a small project from BDSE DOCKER Class.  
+By using the docker compose yaml file to operate three application containers including mysql, flask, nginx, we can import dataset into mysql, retreive dataset from mysql using flask, and show dataset in web page using nginx.
 
 ## Project Structure
 ```
