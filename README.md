@@ -43,5 +43,5 @@ Please do not rename any item.
 Please run the following command under this project directory.  
 
 ```
-docker compose up -d --build
+docker-compose up -d --build
 ```
